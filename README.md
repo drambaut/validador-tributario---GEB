@@ -1,11 +1,5 @@
 # Validador Inteligente de Declaraciones Tributarias GEB
 
-POC web para revisar declaraciones municipales ICA, AutoICA y ReteICA. Conserva la validación determinística de casos mapeados y añade una carga manual asistida por Gemini.
-
-## Estructura
-
-El código vive en esta carpeta `codigo/`. Los documentos tributarios de Ciénaga, Maicao, Soacha y los consolidados permanecen en la carpeta superior y no se duplican.
-
 ## Instalación en Windows
 
 Desde esta carpeta:
@@ -53,7 +47,7 @@ La documentación interactiva estará en `http://localhost:8000/docs`.
 
 ### Demo mapeada
 
-Usa `case_registry.py`, los parsers locales y `validation_engine.py`. Las comparaciones de NIT, nombres, períodos y dinero se realizan con reglas determinísticas. Ciénaga está mapeada; los demás municipios se muestran como pendientes para evitar resultados sin evidencia.
+Usa `case_registry.py`, los parsers locales y `validation_engine.py`. Las comparaciones de NIT, nombres, períodos y dinero se realizan con reglas determinísticas.
 
 ### Carga manual con Gemini
 
