@@ -11,7 +11,7 @@ load_dotenv(Path(__file__).with_name(".env"))
 
 VALID_STATES = {"cumple", "no_cumple", "no_verificable"}
 MAX_SOURCE_CHARS = int(os.getenv("GEMINI_MAX_SOURCE_CHARS", "120000"))
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-flash-latest")
 
 
 class GeminiConfigurationError(RuntimeError): pass

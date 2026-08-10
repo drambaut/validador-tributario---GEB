@@ -14,6 +14,8 @@ st.markdown("""
 <style>
 .block-container {max-width: 1450px; padding-top: 2rem}
 [data-testid="stMetric"] {background:#f6f8fb;border:1px solid #e3e8ef;border-radius:12px;padding:14px}
+[data-testid="stMetric"] [data-testid="stMetricLabel"] {color:#4b5563}
+[data-testid="stMetric"] [data-testid="stMetricValue"] {color:#0f172a}
 </style>""", unsafe_allow_html=True)
 st.title("Validador inteligente de declaraciones")
 st.caption("POC · Demo determinística y carga manual asistida por Gemini · Evidencia trazable")
