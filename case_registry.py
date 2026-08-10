@@ -1,17 +1,17 @@
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent / "assets" / "data"
 
 CASES = {
     ("Ciénaga", "ICA anual"): {
-        "pdf": ROOT / "Cienaga/GEB-CIENAGA-ICA-2025.pdf",
-        "thomson": [ROOT / "Cienaga/GEB-CIENAGA-ICA-2025.xlsm"],
-        "checklist": ROOT / "Cienaga/Cienaga-CheckListValidaciónCalidadICA.xlsx",
+        "pdf": ROOT / "Cienaga/GEB - CIENAGA - ICA - 2025.pdf",
+        "thomson": [ROOT / "Cienaga/GEB - CIENAGA - ICA - 2025.xlsm"],
+        "checklist": ROOT / "Cienaga/Cienaga - Check List Validación Calidad ICA.xlsx",
     },
     ("Ciénaga", "AutoICA + ReteICA mensual"): {
-        "pdf": ROOT / "Cienaga/GEB-CIENAGA-AUTOICAYRETEICA-NOVIEMBRE-2025.pdf",
-        "thomson": [ROOT / "Cienaga/11_25GEBHCIENEGATHOMSONAutoICA.xlsx", ROOT / "Cienaga/11_25GEBHCIENEGATHOMSONReteICA.xlsx"],
-        "checklist": ROOT / "Cienaga/Cienaga-CheckListValidaciónCalidadAutoyRete.xlsx",
+        "pdf": ROOT / "Cienaga/GEB - CIENAGA - AUTOICA Y RETEICA - NOVIEMBRE - 2025 .pdf",
+        "thomson": [ROOT / "Cienaga/11_25 GEBH CIENEGA THOMSON AutoICA.xlsx", ROOT / "Cienaga/11_25 GEBH CIENEGA THOMSON ReteICA.xlsx"],
+        "checklist": ROOT / "Cienaga/Cienaga - Check List Validación Calidad Auto y Rete.xlsx",
     },
 }
 
